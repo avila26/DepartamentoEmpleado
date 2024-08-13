@@ -28,5 +28,5 @@ Route::get('/buscar',        [DepartamentoController::class, 'mostrarEmpleados']
 Route::get('/empleado',         [EmpleadoController::class, 'index']);
 Route::post('/empleado',        [EmpleadoController::class, 'store']);
 Route::delete('/empleado/{id}', [EmpleadoController::class, 'delete']);
-Route::get('/bono/{id}',   [EmpleadoController::class, 'showEmpleado']);
+Route::get('/bonos/{id}',   [EmpleadoController::class, 'showEmpleado']);
 Route::post('/bono/{id}',  [EmpleadoController::class, 'bonos']);

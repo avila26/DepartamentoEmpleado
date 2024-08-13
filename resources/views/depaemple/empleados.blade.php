@@ -84,7 +84,7 @@
                             <td>
                               <div class="btn-group" role="group" aria-label="Acciones">
 
-                                  <form class="bono-form" action="{{ url('bono', $item->id) }}">
+                                  <form class="bono-form" action="{{ url('bonos', $item->id) }}">
                                       @csrf
                                       <button class="btn btn-primary btn-sm bono-btn" type="submit"> BONO</button>
                                   </form>    
